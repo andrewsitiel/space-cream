@@ -56,6 +56,7 @@
 
   .cards .card {
     position: initial;
+    animation-delay: var(--delay);
   }
 
   .cards .card:nth-child(1) {
@@ -64,7 +65,7 @@
 
   .cards .card:nth-child(2) {
     grid-area: B;
-    display: block;
+    display: block;  
   }
 
   .cards .card:nth-child(3) {
@@ -97,7 +98,7 @@
 
     transform: translateY(-20px);
     opacity: 0;
-    transition: transform 300ms, opacity 300ms;
+    transition: transform 400ms, opacity 400ms;
 
     animation: none;
   }

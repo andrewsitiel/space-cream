@@ -49,6 +49,8 @@ header h1{
   padding-block: 0.8rem;
   
   background-color: var(--secondaryColor);
+  
+  animation: show 1s 200ms backwards;
 }
 
 header p{ 
@@ -65,10 +67,8 @@ p{
   
   text-align: center;
   margin: auto;
-}
 
-main{
-  animation: show 1s;
+  animation: show 1s 400ms backwards;
 }
 
 .cards{
@@ -84,6 +84,8 @@ main{
   
   width: min(32rem, 100%);
   margin: auto;
+
+  animation: show 1s 500ms backwards;
 }
 
 .card h2{
@@ -101,7 +103,7 @@ main{
   right: 1.6rem;
   z-index: 100;
 
-  animation: showh2 1.3s reverse;
+  animation: showh2 1s 1s backwards;
 }
 
 .card:nth-child(2){
@@ -132,11 +134,11 @@ main img{
 
 @keyframes showh2{
   0%{
-    transform: translateY(0px); opacity: 1;
+    transform: translateY(-40px); opacity: 0;
   }
 
   100%{
-    transform: translateY(-40px); opacity: 0;
+    transform: translateY(0px); opacity: 1;
   }
 }
 
