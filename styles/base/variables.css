@@ -1,0 +1,16 @@
+:root{
+  /*===========FONTS=====================================*/
+  --palanquin: 'Palanquin', sans-serif;
+  --staatliches: 'Staatliches', cursive;
+  --openSans: 'Open Sans', sans-serif;
+  --roboto: 'Roboto', sans-serif;
+
+  /*===========COLORS=====================================*/
+  --primaryColor: hsl(218, 17%, 62%);
+  --secondaryColor: hsl(275, 18%, 79%);
+  --terciaryColor: hsl(312, 91%, 96%);
+  --backgroundColor: hsl(233, 100%, 97%);
+
+  --textColor: hsl(232, 17%, 35%);
+  --paragraphColor: hsl(274, 84%, 12%);
+}
