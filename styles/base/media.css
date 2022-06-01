@@ -1,3 +1,34 @@
+@media (min-width: 500px){
+  main div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "A D" "C E";
+    gap: 3.5rem;
+
+    position: relative;
+  }
+  
+  .cards .card {
+    animation-delay: var(--delay);
+  }
+
+  .cards .card:nth-child(1) {
+    grid-area: A;
+  }
+
+  .cards .card:nth-child(3) {
+    grid-area: C;
+  }
+
+  .cards .card:nth-child(4) {
+    grid-area: D;
+  }
+
+  .cards .card:nth-child(5) {
+    grid-area: E;
+  }
+}
+
 @media (min-width: 800px) {
   html body::before {
     width: min(37.7rem, 30vw);
@@ -56,7 +87,6 @@
 
   .cards .card {
     position: initial;
-    animation-delay: var(--delay);
   }
 
   .cards .card:nth-child(1) {
@@ -101,10 +131,6 @@
     transition: transform 400ms, opacity 400ms;
 
     animation: none;
-  }
-
-  main .card:hover img {
-    transform: scale(1.1);
   }
 
   main div.card:hover h2 {
