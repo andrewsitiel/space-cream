@@ -32,7 +32,7 @@
 @media (min-width: 800px) {
   html body::before {
     width: min(37.7rem, 30vw);
-    height: max(100vh, 500%);
+    height: 100vh
   }
 
   body .page {
