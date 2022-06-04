@@ -6,7 +6,7 @@ body{
 body:before{
   content: "";
   width: 100%;
-  height: max(100vh, 500%);
+  height: 27.9rem;
 
   background-color: var(--primaryColor);
 
