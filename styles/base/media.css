@@ -53,7 +53,7 @@
   .col-b {
     grid-area: B;
 
-    max-width: 72rem;
+    width: clamp(40rem, 100%, 72rem);
     margin: 6.4rem auto 0;
   }
 
