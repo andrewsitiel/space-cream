@@ -89,25 +89,9 @@
     position: initial;
   }
 
-  .cards .card:nth-child(1) {
-    grid-area: A;
-  }
-
   .cards .card:nth-child(2) {
     grid-area: B;
     display: block;  
-  }
-
-  .cards .card:nth-child(3) {
-    grid-area: C;
-  }
-
-  .cards .card:nth-child(4) {
-    grid-area: D;
-  }
-
-  .cards .card:nth-child(5) {
-    grid-area: E;
   }
 
   .cards .card:nth-child(6) {
@@ -128,6 +112,7 @@
 
     transform: translateY(-20px);
     opacity: 0;
+    visibility: hidden;
     transition: transform 400ms, opacity 400ms;
 
     animation: none;
@@ -135,6 +120,7 @@
 
   main div.card:hover h2 {
     opacity: 1;
+    visibility: visible;
     transform: translateY(0);
   }
 
