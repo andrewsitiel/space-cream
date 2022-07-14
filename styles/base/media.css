@@ -2,7 +2,7 @@
   main div.cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "A D" "C E";
+    grid-template-areas: "A E" "C E" "C D";
     gap: 3.5rem;
 
     position: relative;
